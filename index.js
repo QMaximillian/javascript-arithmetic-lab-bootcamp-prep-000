@@ -1,5 +1,5 @@
 function add (a, b){
-  var number = (a + b)
+  a + b
 }
 
 add(448, 1)
