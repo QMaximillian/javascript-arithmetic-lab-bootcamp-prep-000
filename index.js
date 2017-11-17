@@ -2,15 +2,15 @@ function add (a, b){
   return a + b
 }
 
-function subtract {
+function subtract(a, b) {
   return a - b
 }
 
-function multiply {
+function multiply (a, b) {
   return a * b
 }
 
-function divide {
+function divide (a, b) {
   return a / b
 }
 
@@ -27,5 +27,14 @@ function makeInt(n) {
 }
 
 function preserveDecimal(n) {
-  parseFloat(n)
+  return parseFloat(n)
 }
+
+add(2, 3)
+subtract(2, 3)
+multiply(2, 3)
+divide(2, 3)
+inc (2)
+dec(2)
+makeInt(2)
+preserveDecimal(2.22)
