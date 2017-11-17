@@ -1,15 +1,15 @@
-function add {
-  var add = 1 + 1
+function add (a, b){
+  var add = (a + b)
 }
 
 function subtract {
-  
+
 }
 
 function multiply {
-  
+
 }
 
 function divide {
-  
+
 }
